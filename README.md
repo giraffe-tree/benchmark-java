@@ -1,9 +1,22 @@
 # README
 
+## 使用
+
+```shell
+mvn clean package
+java -cp target/benchmark-java-0.0.1-SNAPSHOT-jar-with-dependencies.jar cn.giraffetree.benchmark.java.jmh.JMHSample_01_HelloWorld
+java -cp target/benchmark-java-0.0.1-SNAPSHOT-jar-with-dependencies.jar cn.giraffetree.benchmark.java.jmh.JMHSample_02_BenchmarkModes
+java -cp target/benchmark-java-0.0.1-SNAPSHOT-jar-with-dependencies.jar cn.giraffetree.benchmark.java.jmh.JMHSample_03_States
+java -cp target/benchmark-java-0.0.1-SNAPSHOT-jar-with-dependencies.jar cn.giraffetree.benchmark.java.jmh.JMHSample_04_DefaultState
+
+```
 
 
 
 ## 其他
+
+
+
 
 
 ### JMH 可视化
